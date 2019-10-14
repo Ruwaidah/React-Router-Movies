@@ -1,7 +1,10 @@
 import React from 'react';
+import Movie from './Movie'
 
 const MovieCard = props => {
-  return;
+  return (
+    <Movie  id = {props.match.params.id}/>
+    )
 };
 
 export default MovieCard;
